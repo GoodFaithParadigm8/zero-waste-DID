@@ -1,6 +1,6 @@
 # Zero Waste Digital Identifiers - DIDs
 
-In the face of recent advances in web enabled online software, 
+Abstract
 ```javascript
 {
   "@context": {
@@ -21,5 +21,5 @@ In the face of recent advances in web enabled online software,
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbLTI3Mzg4MjQ1MCwxNzkxNjY0NTU2XX0=
 -->
