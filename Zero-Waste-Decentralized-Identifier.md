@@ -86,8 +86,8 @@ Example:
 Authors
 :  Jason Sprouse
 
-[^1]: Decentralized Identifiers (DIDs) are currently  at v0.13 
+[^1]: Decentralized Identifiers (DIDs) are currently at v0.13 [w3c](http://example.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjQ3NjA4NSwtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbLTY5MzQwMDU1OCwtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
