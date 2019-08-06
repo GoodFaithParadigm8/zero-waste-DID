@@ -9,19 +9,77 @@ The Waste industry is in need of an overhaul.  There is an opportunity to radica
 In We have identified a need to create a new standard based on Decentralized Identifiers[^1] for the  
 
 ```javascript
+Example: 
 {
-  "@context": {
-    "name": "http://xmlns.com/foaf/0.1/name",
-    "homepage": {
-      "@id": "http://xmlns.com/foaf/0.1/workplaceHomepage",
-      "@type": "@id"
-    },
-    "Person": "http://xmlns.com/foaf/0.1/Person"
-  },
-  "@id": "https://me.example.com",
-  "@type": "Person",
-  "name": "John Smith",
-  "homepage": "https://www.example.com/"
+  "@context": "https://w3id.org/future-method/v1",
+  "id": "did:example:123456789abcdefghi",
+
+  "publicKey": [{
+    "id": "did:example:123456789abcdefghi#keys-1",
+    "type": "RsaVerificationKey2018",
+    "controller": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }, {
+    "id": "did:example:123456789abcdefghi#keys-3",
+    "type": "Ieee2410VerificationKey2018",
+    "controller": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }],
+
+  "authentication": [
+    // this mechanism can be used to authenticate as did:...fghi
+    "did:example:123456789abcdefghi#keys-1",
+    // this mechanism can be used to biometrically authenticate as did:...fghi
+    "did:example:123456789abcdefghi#keys-3",
+    // this mechanism is *only* authorized for authentication, it may not
+    // be used for any other proof purpose, so its full description is
+    // embedded here rather than using only a reference
+    {
+      "id": "did:example:123456789abcdefghi#keys-2",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:example:123456789abcdefghi",
+      "publicKeyBase58": "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
+    }
+  ],
+
+  "service": [{
+    "id": "did:example:123456789abcdefghi#oidc",
+    "type": "OpenIdConnectVersion1.0Service",
+    "serviceEndpoint": "https://openid.example.com/"
+  }, {
+    "id": "did:example:123456789abcdefghi#vcStore",
+    "type": "CredentialRepositoryService",
+    "serviceEndpoint": "https://repository.example.com/service/8377464"
+  }, {
+    "id": "did:example:123456789abcdefghi#xdi",
+    "type": "XdiService",
+    "serviceEndpoint": "https://xdi.example.com/8377464"
+  }, {
+    "id": "did:example:123456789abcdefghi#hub",
+    "type": "HubService",
+    "serviceEndpoint": "https://hub.example.com/.identity/did:example:0123456789abcdef/"
+  }, {
+    "id": "did:example:123456789abcdefghi#messaging",
+    "type": "MessagingService",
+    "serviceEndpoint": "https://example.com/messages/8377464"
+  }, {
+    "type": "SocialWebInboxService",
+    "id": "did:example:123456789abcdefghi#inbox",
+    "serviceEndpoint": "https://social.example.com/83hfh37dj",
+    "description": "My public social inbox",
+    "spamCost": {
+      "amount": "0.50",
+      "currency": "USD"
+    }
+  }, {
+    "type": "DidAuthPushModeVersion1",
+    "id": "did:example:123456789abcdefghi#push",
+    "serviceEndpoint": "http://auth.example.com/did:example:123456789abcdefghi"
+  }, {
+    "id": "did:example:123456789abcdefghi#bops",
+    "type": "BopsService",
+    "serviceEndpoint": "https://bops.example.com/enterprise/"
+  }]
 }
 ```
 
@@ -30,6 +88,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently  at v0.13 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDgwNTE3NCwtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbMTA5OTEzNDE1NCwtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
