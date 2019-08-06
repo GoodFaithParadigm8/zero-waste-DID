@@ -6,7 +6,7 @@ The Waste industry is in need of an overhaul.  There is an opportunity to radica
 
 > Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
  
-We have identified a need to create a new standard based on Decentralized Identifiers <a name="myfootnote1">1</a>: DIDs. The process which we see this method of waste mitigation being achieved is: 
+We have identified a need to create a new standard based on Decentralized Identifiers <a name="myfootnote1">^1</a>: DIDs. The process which we see this method of waste mitigation being achieved is: 
 
 1. Get Geoloacation from a portable device or electronic identifier from building area
 	+ Loading Dock
@@ -105,9 +105,10 @@ Example:
 }
 ```
 
-
-
 Authors
 :  Jason Sprouse
+
+
+## Footnotes
 
 <sup>[1](#myfootnote1): Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)</sup>
