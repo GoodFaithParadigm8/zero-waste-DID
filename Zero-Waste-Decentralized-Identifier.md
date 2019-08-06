@@ -64,6 +64,7 @@ Example:
   ],
 
   "service": [{
+    // To be used for city waste  
     "id": "did:example:123456789abcdefghi#oidc",
     "type": "OpenIdConnectVersion1.0Service",
     "serviceEndpoint": "https://openid.example.com/recycle"
@@ -90,7 +91,7 @@ Example:
     "description": "Waste diversion points",
     "recycledMaterial": {
       "weight": "12oz",
-      "points" : ""
+      "points" : "5"
       "currency": "USD"
     }
   }, {
@@ -110,6 +111,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTc4OTI1MywtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbLTkzODQ3MzYzNywtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
