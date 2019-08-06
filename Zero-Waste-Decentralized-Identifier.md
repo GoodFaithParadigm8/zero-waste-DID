@@ -14,7 +14,11 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Front Foyer
 	+ ect...  
 2. Assign that location to the DID of person owning the task
-3. 
+3. Assign that person to every identifier he/she belongs to
+	+ Personal
+	+ Business
+	+ Community
+4. Conditional checks on location to give cr
 ```javascript
 Example: 
 {
@@ -95,6 +99,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUzMTIyMzUsLTEzODIzODM4ODYsLT
-EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbLTc4MTc3NTgyMiwtMTM4MjM4Mzg4NiwtMT
+I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
