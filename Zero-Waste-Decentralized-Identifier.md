@@ -18,7 +18,9 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Personal
 	+ Business
 	+ Community
-4. Conditional checks on location to give cr
+4. Conditional checks on location to give credit to business or residential community and/or person for tax/reporting purposes
+
+
 ```javascript
 Example: 
 {
@@ -99,6 +101,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTc3NTgyMiwtMTM4MjM4Mzg4NiwtMT
-I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbLTEyNTc4NTEwMTEsLTEzODIzODM4ODYsLT
+EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
