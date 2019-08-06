@@ -1,5 +1,4 @@
 # Metal Types
-- [ ] 1. Metals
 
 + Aluminium
 + Brass and Bronze
@@ -13,11 +12,11 @@
 ```javascript
 <script type="application/ld+json">{
     "@context": "https://schema.org",
-    "@type": "Packaging",
+    "@type": "Packaging", // could be type Recycable ? Material
     "material": "Aluminum",
-    "size": "12 oz",
-    "dryWeight": "4 oz",
-    "image": {
+    "size": "12 oz", // optional
+    "dryWeight": "4 oz", // optional
+    "image": { // perhaps in the future include image for AI 
         "@type": "imageObject",
         "url": "http://example.com/images/image.png",
         "height": "640",

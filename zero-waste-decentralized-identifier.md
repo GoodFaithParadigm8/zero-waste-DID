@@ -14,9 +14,9 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Loading Dock
 	+ Kitchen
 	+ Front Foyer
-	+ Community
+	+ Community/Neighboorhood lat/log
 	+ ect...  
-2. Assign that location to the DID of person owning the task
+2. Assign that location to the DID of person owning the recycle task
 3. Assign that person to every identifier he/she belongs to
 	+ Personal
 	+ School
