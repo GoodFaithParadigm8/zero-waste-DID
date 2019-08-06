@@ -1,6 +1,8 @@
 # Zero Waste Digital Identifiers - DIDs
 
-Abstract
+### Abstract
+
+We
 ```javascript
 {
   "@context": {
@@ -21,5 +23,5 @@ Abstract
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mzg4MjQ1MCwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbLTIwNjA5NjQ4MDEsMTc5MTY2NDU1Nl19
 -->
