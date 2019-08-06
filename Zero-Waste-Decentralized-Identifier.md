@@ -2,7 +2,7 @@
 
 ### Abstract
 
-The Waste industry is in need of an overhaul.  There is a significant amount of work being done 
+The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach  
 
 We
 ```javascript
@@ -25,5 +25,5 @@ We
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTg1NTIyLDE3OTE2NjQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTMxODkwOTMsMTc5MTY2NDU1Nl19
 -->
