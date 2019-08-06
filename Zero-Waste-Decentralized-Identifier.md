@@ -6,7 +6,7 @@ The Waste industry is in need of an overhaul.  There is an opportunity to radica
 > Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
 
  
-In We have identified a need to create a new standard based on Decentralized Identifiers[^1] for the  
+In We have identified a need to create a new standard based on Decentralized Identifiers[^1] for the 
 
 ```javascript
 Example: 
@@ -86,8 +86,8 @@ Example:
 Authors
 :  Jason Sprouse
 
-[^1]: Decentralized Identifiers (DIDs) are currently at v0.13 [w3c](https://w3c-ccg.github.io/did-spec/)
+[^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTY4NTEyNywtMTM4MjM4Mzg4NiwtMT
-I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbLTYzNTAzNjAzLC0xMzgyMzgzODg2LC0xMj
+QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
 -->
