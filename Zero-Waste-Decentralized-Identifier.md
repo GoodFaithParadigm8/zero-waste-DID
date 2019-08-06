@@ -11,8 +11,8 @@ In We have identified a need to create a new standard based on Decentralized Ide
 ```javascript
 Example: 
 {
-  "@context": "https://w3id.org/future-method/v1",
-  "id": "did:example:123456789abcdefghi",
+  "@context": "https://w3id.org/recycle/v1",
+  "id": "did:recycle:123456789abcdefghi",
 
   "publicKey": [{
     "id": "did:example:123456789abcdefghi#keys-1",
@@ -88,6 +88,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently  at v0.13 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTEzNDE1NCwtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbLTQ4NjQ3NjA4NSwtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
