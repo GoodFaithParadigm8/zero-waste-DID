@@ -4,8 +4,10 @@
 
 The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach waste mitigation.  
 > Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
-> 
-We
+
+ 
+We have identified a need to develop 
+
 ```javascript
 {
   "@context": {
@@ -26,6 +28,6 @@ We
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MzEwMzgsLTEyNDE2NzE4MjUsMTc5MT
-Y2NDU1Nl19
+eyJoaXN0b3J5IjpbLTEzODIzODM4ODYsLTEyNDE2NzE4MjUsMT
+c5MTY2NDU1Nl19
 -->
