@@ -22,7 +22,7 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ School
 	+ Business
 	+ Community
-4. Conditional checks on location to give credit to business or residential community and/or person for tax/reporting purposes
+4. Conditional checks on location to give credit to business, residential community, place of worship or educational facility and/or individual person for tax/reporting purposes
 
 
 ## 2. Example work flow code example

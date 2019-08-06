@@ -1,7 +1,7 @@
 # zero-waste-DID
 Zero Waste Decentralized Identifier Proposal
 
-The purpose of this repo is to begin creating protocols to utilize __Decentralized Identifiers__ for waste mitigation purposes. Our goal is to create JSON-LD specifications for the spectrum of materials(metals, paper/cardboard, glass, plastic, hazardous waste, electroic e-waste), weights, and pre and post processing handeling to empower the reporting and tracking of repurposing of recycled materials.
+The purpose of this repo is to begin creating protocols to utilize __Decentralized Identifiers__ for waste mitigation purposes. Our goal is to create JSON-LD specifications for the spectrum of materials(metals, paper/cardboard, glass, plastic, hazardous waste, electroic e-waste), thier respective weights, and pre and post processing handeling to empower the reporting and tracking of repurposing recycled materials.
 
 - [ ] 1. Metals
 + Aluminium
