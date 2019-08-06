@@ -86,13 +86,14 @@ Example:
     "serviceEndpoint": "https://example.com/messages/8377464"
   }, {
     "type": "RecycledGlassMaterial",
-    "id": "did:example:123456789abcdefghi#inbox",
+    "id": "did:example:123456789abcdefghi#business",
     "serviceEndpoint": "https://recycled.example.com/83hfh37dj",
     "description": "Waste diversion points",
     "recycledMaterial": {
       "weight": "12oz",
       "points" : "5"
       "currency": "USD"
+      
     }
   }, {
     "type": "DidAuthPushModeVersion1",
@@ -111,6 +112,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODc2MTYxMSwtMTM4MjM4Mzg4NiwtMT
-I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbMzAyMTM3NDM3LC0xMzgyMzgzODg2LC0xMj
+QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
 -->
