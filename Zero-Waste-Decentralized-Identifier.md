@@ -8,6 +8,10 @@ The Waste industry is in need of an overhaul.  There is an opportunity to radica
  
 We have identified a need to create a new standard based on Decentralized Identifiers[^1]. The process which we see this method of waste mitigation being achieved is: 
 
+1. Get Geoloacation from a portable device or electronic identifier from building area
+	+ Loading   
+2. Item 2
+3. Item 3
 ```javascript
 Example: 
 {
@@ -88,6 +92,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTk0MDI0LC0xMzgyMzgzODg2LC0xMj
-QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NjE1Nzk4MjgsLTEzODIzODM4ODYsLT
+EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
