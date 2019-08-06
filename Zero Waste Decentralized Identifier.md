@@ -4,7 +4,9 @@
 
 The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach waste mitigation.  
 
-> Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
+> Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health.
+
+## 1. Method for tracking waste stream and liable parties
  
 We have identified a need to create a new standard based on Decentralized Identifiers <a name="myfootnote1">^1</a>: DIDs. The process which we see this method of waste mitigation being achieved is: 
 
@@ -20,6 +22,8 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Community
 4. Conditional checks on location to give credit to business or residential community and/or person for tax/reporting purposes
 
+
+## 2. Example work flow code example
 
 ```javascript
 Example: 
