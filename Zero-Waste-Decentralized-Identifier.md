@@ -27,19 +27,19 @@ Example:
   "@context": "https://w3id.org/recycle/v1",
   "id": "did:recycle:123456789abcdefghi",
 
-// Arrary of keys assosiated with an individual
+	     // Arrary of keys assosiated with an individual
   "publicKey": [{
-  // Personal Key
+		// Personal Key
     "id": "did:example:123456789abcdefghi#keys-1",
     "type": "RsaVerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  }, { // Employeer Key
+  }, { 	// Employeer Key
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  },{ // Neighborhood/Community Key
+  },{  // Neighborhood/Community Key
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
@@ -48,13 +48,13 @@ Example:
   ],
 
   "authentication": [
-    // this mechanism can be used to authenticate as did:...fghi
+      // this mechanism can be used to authenticate as did:...fghi
     "did:example:123456789abcdefghi#keys-1",
-    // this mechanism can be used to biometrically authenticate as did:...fghi
+      // this mechanism can be used to biometrically authenticate as did:...fghi
     "did:example:123456789abcdefghi#keys-3",
-    // this mechanism is *only* authorized for authentication, it may not
-    // be used for any other proof purpose, so its full description is
-    // embedded here rather than using only a reference
+	  // this mechanism is *only* authorized for authentication, it may not
+	  // be used for any other proof purpose, so its full description is
+	  // embedded here rather than using only a reference
     {
       "id": "did:example:123456789abcdefghi#keys-2",
       "type": "Ed25519VerificationKey2018",
@@ -64,7 +64,7 @@ Example:
   ],
 
   "service": [{
-    // Used broadcast trasaction for city waste mitigation performance 
+      // Used broadcast trasaction for city waste mitigation performance 
     "id": "did:example:123456789abcdefghi#oidc",
     "type": "OpenIdConnectVersion1.0Service",
     "serviceEndpoint": "https://openid.example.com/recycle"
@@ -106,11 +106,13 @@ Example:
 }
 ```
 
+
+
 Authors
 :  Jason Sprouse
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA2NDc0NDAsLTEzODIzODM4ODYsLT
-EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbMTQxMzA0NTU4LC0xOTcwNjQ3NDQwLC0xMz
+gyMzgzODg2LC0xMjQxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
 -->
