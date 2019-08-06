@@ -27,18 +27,25 @@ Example:
   "@context": "https://w3id.org/recycle/v1",
   "id": "did:recycle:123456789abcdefghi",
 
-// Arrary of keys assPersonal Key 
+// Arrary of keys assosiated with an individual
   "publicKey": [{
+  // Personal Key
     "id": "did:example:123456789abcdefghi#keys-1",
     "type": "RsaVerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  }, { // 
+  }, { // Employeer Key
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  }],
+  },{ // Neighborhood/Comunity Key
+    "id": "did:example:123456789abcdefghi#keys-3",
+    "type": "Ieee2410VerificationKey2018",
+    "controller": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }
+  ],
 
   "authentication": [
     // this mechanism can be used to authenticate as did:...fghi
@@ -102,6 +109,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzQ0NDE4MSwtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbMTExMTE5ODM3OSwtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
