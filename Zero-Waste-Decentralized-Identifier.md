@@ -64,7 +64,7 @@ Example:
   ],
 
   "service": [{
-      // Used broadcast trasaction for city waste mitigation performance 
+      // Used broadcast trasaction for city waste mitigation    	   performance 
     "id": "did:example:123456789abcdefghi#oidc",
     "type": "OpenIdConnectVersion1.0Service",
     "serviceEndpoint": "https://openid.example.com/recycle"
@@ -113,6 +113,7 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzA0NTU4LC0xOTcwNjQ3NDQwLC0xMz
-gyMzgzODg2LC0xMjQxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTE4MjEwMTMxMTQsMTQxMzA0NTU4LC0xOT
+cwNjQ3NDQwLC0xMzgyMzgzODg2LC0xMjQxNjcxODI1LDE3OTE2
+NjQ1NTZdfQ==
 -->
