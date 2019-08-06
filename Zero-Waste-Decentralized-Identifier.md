@@ -24,10 +24,12 @@ We have identified a need to create a new standard based on Decentralized Identi
   "homepage": "https://www.example.com/"
 }
 ```
-[^1]
+
 Authors
 :  Jason Sprouse
+
+[^1]: Decentralized Identifiers 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTgyODI4OSwtMTM4MjM4Mzg4NiwtMT
-I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbLTIwOTYyNTA3NDUsLTEzODIzODM4ODYsLT
+EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
