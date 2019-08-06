@@ -27,12 +27,13 @@ Example:
   "@context": "https://w3id.org/recycle/v1",
   "id": "did:recycle:123456789abcdefghi",
 
+// Arrary of keys assPersonal Key 
   "publicKey": [{
     "id": "did:example:123456789abcdefghi#keys-1",
     "type": "RsaVerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  }, {
+  }, { // 
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
@@ -101,6 +102,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc4NTEwMTEsLTEzODIzODM4ODYsLT
-EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbLTM2MzQ0NDE4MSwtMTM4MjM4Mzg4NiwtMT
+I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
