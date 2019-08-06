@@ -2,7 +2,8 @@
 
 ### Abstract
 
-The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach  
+The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach waste mitigation.  
+>Zero Waste is the 
 
 We
 ```javascript
@@ -25,5 +26,5 @@ We
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTMxODkwOTMsMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbLTEyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
