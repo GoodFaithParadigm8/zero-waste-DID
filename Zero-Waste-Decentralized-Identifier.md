@@ -28,8 +28,8 @@ In We have identified a need to create a new standard based on Decentralized Ide
 Authors
 :  Jason Sprouse
 
-[^1]: Decentralized Identifiers (DIDs) are a  
+[^1]: Decentralized Identifiers (DIDs) are currently  at v0.13 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODkxNzEyOCwtMTM4MjM4Mzg4NiwtMT
+eyJoaXN0b3J5IjpbLTQzMDgwNTE3NCwtMTM4MjM4Mzg4NiwtMT
 I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
 -->
