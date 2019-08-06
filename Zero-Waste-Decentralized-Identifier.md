@@ -3,10 +3,10 @@
 ### Abstract
 
 The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach waste mitigation.  
-> Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
 
+> Zero Waste is the conservation of all resources by means of responsible production, consumption, reuse, and recovery of products, packaging, and materials without burning and with no discharges to land, water, or air that threaten the environment or human health. 
  
-In We have identified a need to create a new standard based on Decentralized Identifiers[^1] from the 
+We have identified a need to create a new standard based on Decentralized Identifiers[^1] . Using this method we can use portable hand held devices 
 ```javascript
 Example: 
 {
@@ -87,6 +87,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMTE3NDEzLC0xMzgyMzgzODg2LC0xMj
-QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDI3NTM5NDMsLTEzODIzODM4ODYsLT
+EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
