@@ -14,10 +14,12 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Loading Dock
 	+ Kitchen
 	+ Front Foyer
+	+ Community
 	+ ect...  
 2. Assign that location to the DID of person owning the task
 3. Assign that person to every identifier he/she belongs to
 	+ Personal
+	+ School
 	+ Business
 	+ Community
 4. Conditional checks on location to give credit to business or residential community and/or person for tax/reporting purposes
@@ -94,7 +96,7 @@ Example:
     "description": "Waste diversion points",
     "recycledMaterial": {
       "weight": "12oz",
-      "points" : "5"
+      "points" : "5",
       "currency": "USD"
     }
   }, {
