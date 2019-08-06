@@ -2,6 +2,7 @@
 
 ### Abstract
 
+The Waste industry is in need of an overhaul.  There is a significant amount of work being done 
 
 We
 ```javascript
@@ -24,5 +25,5 @@ We
 Authors
 :  Jason Sprouse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE2OTY3MjMsMTc5MTY2NDU1Nl19
+eyJoaXN0b3J5IjpbLTUxNTg1NTIyLDE3OTE2NjQ1NTZdfQ==
 -->
