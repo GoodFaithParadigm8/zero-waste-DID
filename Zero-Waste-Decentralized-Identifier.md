@@ -39,7 +39,7 @@ Example:
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  },{ // Neighborhood/Comunity Key
+  },{ // Neighborhood/Community Key
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
@@ -93,7 +93,6 @@ Example:
       "weight": "12oz",
       "points" : "5"
       "currency": "USD"
-      
     }
   }, {
     "type": "DidAuthPushModeVersion1",
@@ -112,6 +111,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMTM3NDM3LC0xMzgyMzgzODg2LC0xMj
-QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NzA2NDc0NDAsLTEzODIzODM4ODYsLT
+EyNDE2NzE4MjUsMTc5MTY2NDU1Nl19
 -->
