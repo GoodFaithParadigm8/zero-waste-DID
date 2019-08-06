@@ -84,7 +84,7 @@ Example:
     "type": "MessagingService",
     "serviceEndpoint": "https://example.com/messages/8377464"
   }, {
-    "type": "SocialWebInboxService",
+    "type": "RecycledGlassMaterial",
     "id": "did:example:123456789abcdefghi#inbox",
     "serviceEndpoint": "https://social.example.com/83hfh37dj",
     "description": "My public social inbox",
@@ -109,6 +109,6 @@ Authors
 
 [^1]: Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTE5ODM3OSwtMTM4MjM4Mzg4NiwtMT
-I0MTY3MTgyNSwxNzkxNjY0NTU2XX0=
+eyJoaXN0b3J5IjpbMjAzNTc4OTE5LC0xMzgyMzgzODg2LC0xMj
+QxNjcxODI1LDE3OTE2NjQ1NTZdfQ==
 -->
