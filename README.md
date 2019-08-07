@@ -1,4 +1,4 @@
-# Zero Waste Digital Identifiers - DIDs
+# Zero Waste Decentralized Identifiers - DIDs
 
 ### Abstract
 
