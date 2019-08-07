@@ -15,9 +15,10 @@
     "@context": "https://schema.org",
     "@type": "Product"
     "description": "packaging",
+    "name": "aluminum",
     "category": {
         "@type": "Thing",
-        "name": "aluminum"
+        "name": "can"
     },
     "weight": {
         "@type": "QuantitaveValue",
