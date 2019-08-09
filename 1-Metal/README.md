@@ -37,3 +37,37 @@
 }
 </script>
 ```
+
+### Example JSON-LD for manafactured product 
+
+```javascript
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Product"
+    "manafacture": "Acme door handles"
+    "description": "Door handle hardware.",
+    "material": {
+        "@type": "Product",
+        "description": "metal",
+        "name": "brass"
+    }
+    "category": {
+        "@type": "Thing",
+        "name": "door handle"
+    },
+    "weight": {
+        "@type": "QuantitaveValue",
+        "value": "12",
+        "valueReference": "oz",
+    },
+    "image": { // perhaps in the future include image for AI 
+        "@type": "imageObject",
+        "url": "http://example.com/images/image.png",
+        "height": "640",
+        "width": "800"
+    },
+}
+</script>
+```
+
