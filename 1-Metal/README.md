@@ -17,7 +17,8 @@
     "description": "packaging",
     "material": {
         "@type": "Product",
-        "description": "aluminum"
+        "description": "metal",
+        "name": "aluminium"
     }
     "category": {
         "@type": "Thing",
@@ -54,7 +55,7 @@
     }
     "category": {
         "@type": "Thing",
-        "name": "door handle"
+        "name": "door handle" 
     },
     "weight": {
         "@type": "QuantitaveValue",
@@ -71,3 +72,30 @@
 </script>
 ```
 
+### Example JSON-LD for product packaging & manafactured product & shipping packaging
+
+<script type="application/ld+json">
+  "@context": "http://schema.org",
+    "@type": "ItemList",
+    "url": "http://toymanafacture.com?toy=39600",
+    "numberOfItems": "1",
+    "itemListElement": [
+       "@type": "Product",
+       "image": "http://toymanafacture.com/random.platicCar.jpeg",
+       "url": "http://toymanafacture.com/",
+       "name": "toyCar",
+        "offers": {
+           "@type": "Offer",
+           "price": "1.99."
+         },
+        ],
+         {
+           "@type": "Product"
+           "description": "packaging",
+           "category": {
+	      "@type": "Thing",
+          "description": "paper"
+	      "name": "cardboard"
+                       ...
+          },
+</script>
