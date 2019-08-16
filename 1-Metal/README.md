@@ -74,6 +74,7 @@
 
 ### Example JSON-LD for product packaging & manafactured product & shipping packaging
 
+```
 <script type="application/ld+json">
   "@context": "http://schema.org",
     "@type": "ItemList",
@@ -99,3 +100,4 @@
                        ...
           },
 </script>
+```
