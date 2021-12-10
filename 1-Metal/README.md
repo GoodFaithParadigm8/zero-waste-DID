@@ -1,6 +1,6 @@
 # Metal Types
 
-+ Aluminium
++ Aluminum
 + Brass and Bronze
 + Cast Iron
 + Copper
@@ -18,7 +18,7 @@
     "material": {
         "@type": "Product",
         "description": "metal",
-        "name": "aluminium"
+        "name": "aluminum"
     }
     "category": {
         "@type": "Thing",
@@ -46,7 +46,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Product"
-    "manafacture": "Acme door handles"
+    "manufacture": "Acme door handles"
     "description": "Door handle hardware.",
     "material": {
         "@type": "Product",
@@ -72,7 +72,7 @@
 </script>
 ```
 
-### Example JSON-LD for product packaging & manafactured product & shipping packaging
+### Example JSON-LD for product packaging & manufactured product & shipping packaging
 
 ```
 <script type="application/ld+json">
@@ -81,16 +81,14 @@
     "url": "http://toymanafacture.com?toy=39600",
     "numberOfItems": "1",
     "itemListElement": [
-       "@type": "Product",
-       "image": "http://toymanafacture.com/random.platicCar.jpeg",
-       "url": "http://toymanafacture.com/",
-       "name": "toyCar",
-        "offers": {
+       "@type": "Product",                                         
+       "image": "http://toymanafacture.com/random.platicCar.jpeg", 
+       "url": "http://toymanafacture.com/",                        
+       "name": "toyCar",                                           
+        "offers": {                                                
            "@type": "Offer",
            "price": "1.99."
-         },
-        ],
-         {
+         }, {
            "@type": "Product"
            "description": "packaging",
            "category": {
@@ -98,6 +96,7 @@
           "description": "paper"
 	      "name": "cardboard"
                        ...
-          },
+          }
+        ],
 </script>
 ```

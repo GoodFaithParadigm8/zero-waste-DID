@@ -1,5 +1,17 @@
 # Zero Waste Decentralized Identifiers - DIDs
 
+**Hack Atom VI** - Earth Challenge
+
+ Proposed in the [Cosmos Discord](https://discord.com/channels/669268347736686612/902865199315447838) channel.
+
+1. Use DIDs in a practical manner, eg. build a Cosmos based CRM - and implement a zero waste initiative for the Interchange Earth Program.
+
+### Potential Platforms outside of a sovereign CRM Chain(most ideal)
+  - IXO
+  - CHEQD_IO
+
+Possible interoperability and/or collaborations.
+
 ### Abstract
 
 The Waste industry is in need of an overhaul.  There is an opportunity to radically change the way people, communities, organizations and cities approach waste mitigation.  
@@ -14,7 +26,7 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ Loading Dock
 	+ Kitchen
 	+ Front Foyer
-	+ Community/Neighboorhood lat/log
+	+ Community/Neighborhood lat/log
 	+ ect...  
 2. Assign that location to the DID of person owning the recycle task
 3. Assign that person to every identifier he/she belongs to
@@ -22,7 +34,7 @@ We have identified a need to create a new standard based on Decentralized Identi
 	+ School
 	+ Business
 	+ Community
-4. Conditional checks on location to give credit to business, residential community, place of worship or educational facility and/or individual person for tax/reporting purposes
+4. Conditional checks on location to give credit to business, residential community, place of worship or educational facility and/or individual person for reporting purposes
 
 
 ## 2. Example work flow code example
@@ -32,14 +44,14 @@ Example:
 {
   "@context": "https://w3id.org/recycle/v1",
   "id": "did:recycle:123456789abcdefghi",
-     // Arrary of keys assosiated with an individual
+     // Array of keys associated with an individual
   "publicKey": [{
      // Personal Key
     "id": "did:example:123456789abcdefghi#keys-1",
     "type": "RsaVerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
     "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-  }, { 	// Employeer Key
+  }, { 	// Employer Key
     "id": "did:example:123456789abcdefghi#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:example:123456789abcdefghi",
@@ -69,7 +81,7 @@ Example:
   ],
 
   "service": [{
-      // Used broadcast trasaction for city waste mitigaton metric data 
+      // Used broadcast transaction for city waste mitigation metric data 
     "id": "did:example:123456789abcdefghi#oidc",
     "type": "OpenIdConnectVersion1.0Service",
     "serviceEndpoint": "https://openid.example.com/recycle"
