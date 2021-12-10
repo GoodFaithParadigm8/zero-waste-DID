@@ -1,8 +1,5 @@
 # Zero Waste Decentralized Identifiers - DIDs
 
-**Hack Atom VI** - Earth Challenge
-
- Proposed in the [Cosmos Discord](https://discord.com/channels/669268347736686612/902865199315447838) channel.
 
 1. Use DIDs in a practical manner, eg. build a Cosmos based CRM - and implement a zero waste initiative for the Interchange Earth Program.
 
