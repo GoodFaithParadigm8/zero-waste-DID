@@ -130,12 +130,12 @@ Clone:
 `git clone https://github.com/piprate/json-gold.git`
 
 Source file:
-`cd examples`
+`cd json-gold && cd examples`
 
 Run the program:
 `go run compact.go`
 
-Import module here got errors that could not resolve, but as alluded - not sure if browser or Cosmos module would be best for JSON-LD.
+Importing module got errors that could not resolve, but as alluded - not sure if browser or Cosmos module would be best for JSON-LD.
 
 ## Footnotes
 
