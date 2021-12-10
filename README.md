@@ -123,6 +123,8 @@ Example:
 Authors
 :  Jason Sprouse
 
+Need to have go v1.13+ installed 
+
 
 ### For an example of using JSON-GOLD
 
@@ -131,6 +133,9 @@ Clone:
 
 Source file:
 `cd json-gold && cd examples`
+
+Install depenencies:
+`go install`
 
 Run the program:
 `go run compact.go`
