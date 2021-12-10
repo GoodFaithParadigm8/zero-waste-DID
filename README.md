@@ -124,6 +124,19 @@ Authors
 :  Jason Sprouse
 
 
+### For an example of using JSON-GOLD
+
+Clone:
+`git clone https://github.com/piprate/json-gold.git`
+
+Source file:
+`cd examples`
+
+Run the program:
+`go run compact.go`
+
+Import module here got errors that could not resolve, but as alluded - not sure if browser or Cosmos module would be best for JSON-LD.
+
 ## Footnotes
 
 <sup>[1](#myfootnote1): Decentralized Identifiers (DIDs) are currently specified at v0.13 [w3c-Decentralized-Identifiers](https://w3c-ccg.github.io/did-spec/)</sup>
